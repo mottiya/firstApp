@@ -12,7 +12,7 @@ class SplashView extends StatelessWidget {
   SplashView({super.key}) {
     Timer(const Duration(seconds: 2), () async {
       if(await ConnectionService().checkConnection()) {
-        Get.offAllNamed(Routes.onBoarding_1);
+        Get.offAllNamed(Routes.onBoarding);
       }
       else {
         Get.offAllNamed(Routes.noConnection);

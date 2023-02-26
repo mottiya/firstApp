@@ -4,8 +4,8 @@ import 'package:megd/app/components/round_button.dart';
 import 'package:megd/app/routes/app_pages.dart';
 import 'package:megd/helpers/image_helper.dart';
 
-class Mods extends StatelessWidget {
-  const Mods({super.key});
+class Articles extends StatelessWidget {
+  const Articles({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -129,7 +129,7 @@ class NameOfMod extends StatelessWidget {
                     'Name of mod',
                     style: Get.theme.textTheme.titleSmall,
                   ),
-                  onTap: () => Get.toNamed(Routes.mod),
+                  onPressed: () => Get.toNamed(Routes.mod),
                 ),
               ),
             ],

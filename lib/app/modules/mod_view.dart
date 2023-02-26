@@ -78,7 +78,7 @@ class Mod extends StatelessWidget {
                   'Watch ad to get mod'.toUpperCase(),
                   style: Get.theme.textTheme.titleSmall,
                 ),
-                onTap: () => Get.toNamed(Routes.download),
+                onPressed: () => Get.toNamed(Routes.download),
               ),
             ),
           ],

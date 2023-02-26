@@ -4,6 +4,6 @@ import 'package:megd/app/modules/on_boarding/controller/on_boarding_controller.d
 class OnBoardingBinding implements Bindings {
   @override
   void dependencies() {
-    Get.lazyPut(() => OnBoardingController());
+    Get.put(OnBoardingController());
   }
 }

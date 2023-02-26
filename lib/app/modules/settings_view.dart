@@ -45,7 +45,7 @@ class Settings extends StatelessWidget {
                   'Terms of use'.toUpperCase(),
                   style: Get.theme.textTheme.labelLarge,
                 ),
-                onTap: () => Get.toNamed(Routes.termsOfUse),
+                onPressed: () => Get.toNamed(Routes.termsOfUse),
               ),
               const SizedBox(
                 height: 10,
@@ -57,7 +57,7 @@ class Settings extends StatelessWidget {
                   'Privacy policy'.toUpperCase(),
                   style: Get.theme.textTheme.labelLarge,
                 ),
-                onTap: () => Get.toNamed(Routes.privacyPolicy),
+                onPressed: () => Get.toNamed(Routes.privacyPolicy),
               ),
               const Spacer(),
             ],
