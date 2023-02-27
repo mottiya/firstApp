@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "928195508993",
+    "project_id": "megd-efebd",
+    "storage_bucket": "megd-efebd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928195508993:android:867d6dd8ff4b4a1b5af900",
+        "android_client_info": {
+          "package_name": "com.example.megd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928195508993-gf8l8jg68aa17tdsisofpmttsj2ea728.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjwPRjlcRpYo8vGFu23aeS8vByjC2d3I4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928195508993-gf8l8jg68aa17tdsisofpmttsj2ea728.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

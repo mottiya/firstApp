@@ -1,25 +1,37 @@
 part of 'app_pages.dart';
 
 abstract class _Paths {
-  static const initialRoute = '/';
+  static const splash = '/';
+
   static const onBoarding = '/on_boarding';
-  static const noConnection = '/no_conection';
+
   static const articles = '/articles';
-  static const mod = '/articles/mod';
-  static const settings = '/articles/settings';
-  static const privacyPolicy = '/articles/settings/privacy_policy';
-  static const termsOfUse = '/articles/settings/terms_of_use';
-  static const download = '/articles/mod/download';
+  static const article = '/article';
+
+  static const settings = '/settings';
+
+  static const agreement = '/agreement_:agreementType';
+
+  static const download = '/download';
+
+  static const noConnection = '/no_conection';
 }
 
 abstract class Routes {
-  static const initialRoute = _Paths.initialRoute;
+  static const splash = _Paths.splash;
+
   static const onBoarding = _Paths.onBoarding;
-  static const noConnection = _Paths.noConnection;
+
   static const articles = _Paths.articles;
-  static const mod = _Paths.mod;
+  static const article = '$articles${_Paths.article}';
+
   static const settings = _Paths.settings;
-  static const privacyPolicy = _Paths.privacyPolicy;
-  static const termsOfUse = _Paths.termsOfUse;
+
+  static final privacy = _agreement('privacy');
+  static final terms = _agreement('terms');
+  static String _agreement(String agreementType) => '/agreement_$agreementType';
+
   static const download = _Paths.download;
+
+  static const noConnection = _Paths.noConnection;
 }

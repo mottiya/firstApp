@@ -52,7 +52,7 @@ class Articles extends StatelessWidget {
                 'Terms of use',
                 style: Get.theme.textTheme.labelSmall,
               ),
-              onPressed: () => Get.toNamed(Routes.termsOfUse),
+              onPressed: () => Get.toNamed(Routes.terms),
             ),
             TextButton(
               style: const ButtonStyle(
@@ -62,7 +62,7 @@ class Articles extends StatelessWidget {
                 'Privacy Policy',
                 style: Get.theme.textTheme.labelSmall,
               ),
-              onPressed: () => Get.toNamed(Routes.privacyPolicy),
+              onPressed: () => Get.toNamed(Routes.privacy),
             ),
           ],
         ),
@@ -111,7 +111,7 @@ class NameOfMod extends StatelessWidget {
             child: Material(
               color: Colors.transparent,
               child: InkWell(
-                onTap: () => Get.toNamed(Routes.mod),
+                onTap: () => Get.toNamed(Routes.article),
                 splashColor: Colors.transparent,
                 highlightColor: Colors.transparent,
                 borderRadius: const BorderRadius.all(Radius.circular(10)),
@@ -129,7 +129,7 @@ class NameOfMod extends StatelessWidget {
                     'Name of mod',
                     style: Get.theme.textTheme.titleSmall,
                   ),
-                  onPressed: () => Get.toNamed(Routes.mod),
+                  onPressed: () => Get.toNamed(Routes.article),
                 ),
               ),
             ],

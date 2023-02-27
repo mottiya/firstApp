@@ -4,8 +4,8 @@ import 'package:megd/app/components/round_button.dart';
 import 'package:megd/app/routes/app_pages.dart';
 import 'package:megd/helpers/image_helper.dart';
 
-class Mod extends StatelessWidget {
-  const Mod({super.key});
+class Article extends StatelessWidget {
+  const Article({super.key});
 
   @override
   Widget build(BuildContext context) {
